@@ -1,0 +1,16 @@
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon-chevron-right {
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

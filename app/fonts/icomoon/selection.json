@@ -1,0 +1,64 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M255.829 957.44c-67.072 45.653-152.32 67.84-255.829 66.56 43.264-64.597 68.693-118.357 76.117-161.28 11.947-68.693 17.579-127.659 20.139-187.307-0.426-6.613-0.674-14.36-0.683-22.164l-0-0.023v-284.587c-0-203.594 165.046-368.64 368.64-368.64h361.813c203.594 0 368.64 165.046 368.64 368.64v0 284.587c0 203.594-165.046 368.64-368.64 368.64v0h-361.813c-0.173 0-0.377 0-0.582 0-77.67 0-149.703-24.132-209.011-65.307l1.209 0.794z"
+        ],
+        "attrs": [],
+        "width": 1195,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "message (1)"
+        ],
+        "colorPermutations": {}
+      },
+      "attrs": [],
+      "properties": {
+        "order": 2,
+        "id": 0,
+        "name": "message",
+        "prevSize": 32,
+        "code": 59648
+      },
+      "setIdx": 0,
+      "setId": 0,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showCodes": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215
+    },
+    "historySize": 50,
+    "gridSize": 16
+  }
+}

@@ -1,0 +1,637 @@
+{% extends "layouts/app.twig" %}
+
+{% block pageTitle %}Football 2018{% endblock %}
+
+{% block content %}
+    <!-- Header block -->
+    <header class="header male-header fw-flex fw-flex-column fw-flex-center fw-relative">
+        {#<div class="overlay fw-absolute fw-left-0 fw-top-0 fw-width-1-1 fw-height-1-1"></div>#}
+        <div class="top-line fw-flex fw-absolute fw-left-0 fw-top-26 fw-z-index-2 fw-width-1-1 fw-flex-right fw-flex-top fw-pr-135">
+            <div class="language fw-pointer fw-flex fw-flex-left fw-flex-middle fw-pl-3 fw-pr-7 fw-pt-3 fw-pb-3 fw-relative">
+                <div class="language-icon"><img class="fw-width-23 fw-block" src="images/ru@2x.jpg" alt=""></div>
+                <span class="language-title fw-block fw-fz-16 fw-color-white fw-ml-5">RU</span>
+
+                {# Language list #}
+                <div class="fw-absolute language-list fw-top-0 fw-pt-45">
+                    <ul class="fw-pt-10 fw-pl-0 fw-pb-10 fw-bg-color-white">
+                        <li>
+                            <a href="#" class="fw-pointer fw-gray-hover fw-pl-15 fw-pr-20 fw-flex fw-flex-left fw-flex-middle fw-pt-7 fw-pb-7">
+                                <div class="language-icon"><img class="fw-width-23 fw-block" src="images/ru@2x.jpg" alt=""></div>
+                                <span class="language-title fw-block fw-fz-16 fw-color-white fw-color-gray fw-ml-5">RU</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="fw-pointer fw-gray-hover fw-pl-15 fw-pr-20 fw-flex fw-flex-left fw-flex-middle fw-pt-7 fw-pb-7">
+                                <div class="language-icon"><img class="fw-width-23 fw-block" src="images/eng@2x.jpg" alt=""></div>
+                                <span class="language-title fw-block fw-fz-16 fw-color-white fw-color-gray fw-ml-5">EN</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="fw-pointer fw-gray-hover fw-pl-15 fw-pr-20 fw-flex fw-flex-left fw-flex-middle fw-pt-7 fw-pb-7">
+                                <div class="language-icon"><img class="fw-width-23 fw-block" src="images/cn@2x.jpg" alt=""></div>
+                                <span class="language-title fw-block fw-fz-16 fw-color-white fw-color-gray fw-ml-5">CN</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="fw-pointer fw-gray-hover fw-pl-15 fw-pr-20 fw-flex fw-flex-left fw-flex-middle fw-pt-7 fw-pb-7">
+                                <div class="language-icon"><img class="fw-width-23 fw-block" src="images/jp@2x.jpg" alt=""></div>
+                                <span class="language-title fw-block fw-fz-16 fw-color-white fw-color-gray fw-ml-5">JP</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="fw-pointer fw-gray-hover fw-pl-15 fw-pr-20 fw-flex fw-flex-left fw-flex-middle fw-pt-7 fw-pb-7">
+                                <div class="language-icon"><img class="fw-width-23 fw-block" src="images/ko@2x.jpg" alt=""></div>
+                                <span class="language-title fw-block fw-fz-16 fw-color-white fw-color-gray fw-ml-5">KO</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                {# end #}
+            </div>
+
+        </div>
+        <div class="container fw-relative fw-z-index-1">
+            <div class="header-content fw-relative fw-text-center">
+                <h1 class="fw-font-normal fw-AvenirNextBold fw-fz-40 fw-color-white fw-margin-0 fw-mb-10">Секс-знакомства в Новосибиркске</h1>
+                <h2 class="fw-fz-32 fw-color-white fw-font-normal fw-GloberBoldItalic fw-margin-0">Сотни анкет живых пользователей</h2>
+
+                <img src="images/vector.png" class=" fw-block fw-width-30 fw-margin-auto fw-mt-50 fw-mb-40" alt="">
+
+                <p class="fw-color-white fw-RobotoMedium fw-fz-20 fw-mb-35">Укажите номер телефона и мы пришлем ссылку на скачивание приложения</p>
+
+                <form class="fw-flex fw-flex-center fw-flex-middle fw-flex-column fw-mb-20">
+                    <div class="fw-width-1-1 fw-border-radius-20 fw-overflow-hidden fw-border-style-solid fw-border-width-2 fw-border-color-red2 fw-flex fw-flex-center fw-max-width-300 fw-flex-middle fw-relative fw-mb-15">
+                        <select name="" id="" class="fw-pointer fw-RobotoRegular fw-outline-none fw-fz-16 fw-border-none fw-bg-color-white fw-absolute fw-left-2 fw-transform-middle fw-height-percent-84">
+                            <option value="1">+7</option>
+                            <option value="2">+8</option>
+                            <option value="3">+38</option>
+                        </select>
+
+                        <input type="text" class="fw-height-40 fw-border-none fw-RobotoRegular fw-fz-16 fw-pl-50 fw-width-1-1">
+                    </div>
+
+                    <button class="fw-red-bg-hover2 fw-RobotoMedium fw-fz-16 fw-color-white fw-bg-color-red2 fw-border-radius-20 fw-max-width-300 fw-width-1-1 fw-height-40 fw-flex fw-flex-center fw-flex-middle fw-border-none fw-pointer">Скачать</button>
+                </form>
+            </div>
+        </div>
+
+        <a href="#girls" class="js-go-to header-scroll-bottom fw-absolute fw-transform-center fw-bottom-75">
+            <img src="images/header-arr.png" class="fw-width-28" alt="">
+        </a>
+    </header>
+    <!-- Header block end -->
+
+    {# Girls section 1 #}
+    <div id="girls" class="girls fw-relative fw-text-center fw-pt-45 fw-pb-35">
+        <div class="overlay fw-absolute fw-left-0 fw-top-0 fw-width-1-1 fw-height-1-1"></div>
+        <div class="container fw-relative fw-z-index-1">
+            <h2 class="fw-margin-0 fw-fz-36 fw-color-white fw-AvenirNextBold fw-font-normal fw-mb-40">Готовы провести с тобой время</h2>
+            {# Female slider  #}
+            <div class="girls-slider js-girls-slider owl-carousel owl-theme fw-flex fw-flex-left fw-flex-top">
+                <div class="girls-slider-slide fw-margin-auto fw-border-radius-10 fw-black-bg">
+                    <div class="girls-slider-slide-img fw-height-300 fw-overflow-hidden fw-relative">
+                        <img src="images/male/1.png" class="fw-width-1-1 girls-slider-slide-img-main fw-height-1-1 fw-border-radius-10" alt="">
+
+                        <div class="profile-hover-info fw-pt-40 fw-border-radius-10 fw-absolute fw-height-1-1 fw-width-1-1 fw-left-0 fw-top-0">
+                            <img src="images/male/1.png" class="fw-white-border fw-height-76 fw-width-76px fw-margin-auto fw-border-radius-percent-50" alt="">
+                            <div class="parameters  fw-flex fw-flex-top fw-pt-25 fw-flex-center fw-text-left">
+                                <ul class="fw-padding-0 fw-margin-0">
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Вес</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Рост</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Грудь</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Цвет глаз</li>
+                                </ul>
+
+                                <ul class="fw-pl-20 fw-margin-0">
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">55</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">171</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">3</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Зеленые</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fw-flex fw-flex-middle fw-flex-space-between fw-pl-20 fw-pr-20 fw-pt-15 fw-pb-20">
+                        <p class="fw-fz-14 fw-color-white fw-RobotoRegular">Girl name, <span>23</span></p>
+                        <a href="https://zolushka-project.ru/profile/she/837653?utm_source=Unisender&utm_medium=CPC&utm_campaign=email_follow" target="_blank" class="fw-fz-12 fw-flex fw-flex-middle fw-pl-10 fw-pr-10 fw-hover-red-white fw-flex-left fw-z-index-1 fw-height-34 fw-border-radius-130px red-border fw-color-red2">
+                            <span class="icon-message fw-fz-14 fw-mr-15"></span>
+                            Message
+                        </a>
+                    </div>
+                </div>
+
+                <div class="girls-slider-slide fw-margin-auto fw-border-radius-10 fw-black-bg">
+                    <div class="girls-slider-slide-img fw-relative fw-height-300">
+                        <img src="images/male/2.png" class="girls-slider-slide-img-main fw-width-1-1 fw-height-1-1 fw-border-radius-10" alt="">
+                        <div class="profile-hover-info fw-pt-40 fw-border-radius-10 fw-absolute fw-height-1-1 fw-width-1-1 fw-left-0 fw-top-0">
+                            <img src="images/male/2.png" class="fw-white-border fw-height-76 fw-width-76px fw-margin-auto fw-border-radius-percent-50" alt="">
+                            <div class="fw-flex parameters fw-flex-top fw-pt-25 fw-flex-center fw-text-left">
+                                <ul class="fw-padding-0 fw-margin-0">
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Вес</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Рост</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Грудь</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Цвет глаз</li>
+                                </ul>
+
+                                <ul class="fw-pl-20 fw-margin-0">
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">55</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">170</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">2</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Синий</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fw-flex fw-flex-middle fw-flex-space-between fw-pl-20 fw-pr-20 fw-pt-15 fw-pb-20">
+                        <p class="fw-fz-14 fw-color-white fw-RobotoRegular">Girl name, <span>23</span></p>
+                        <a href="https://zolushka-project.ru/profile/she/839114?utm_source=Unisender&utm_medium=CPC&utm_campaign=email_follow" target="_blank" class="fw-fz-12 fw-flex fw-flex-middle fw-pl-10 fw-pr-10 fw-hover-red-white fw-flex-left fw-z-index-1 fw-height-34 fw-border-radius-130px red-border fw-color-red2">
+                            <span class="icon-message fw-fz-14 fw-mr-15"></span>
+                            Message
+                        </a>
+                    </div>
+                </div>
+
+                <div class="girls-slider-slide fw-margin-auto fw-border-radius-10 fw-black-bg">
+                    <div class="girls-slider-slide-img fw-height-300">
+                        <img src="images/male/3.png" class="girls-slider-slide-img-main fw-width-1-1 fw-height-1-1 fw-border-radius-10" alt="">
+
+                        <div class="profile-hover-info fw-pt-40 fw-border-radius-10 fw-absolute fw-height-1-1 fw-width-1-1 fw-left-0 fw-top-0">
+                            <img src="images/male/3.png" class="fw-white-border fw-height-76 fw-width-76px fw-margin-auto fw-border-radius-percent-50" alt="">
+                            <div class="fw-flex parameters fw-flex-top fw-pt-25 fw-flex-center fw-text-left">
+                                <ul class="fw-padding-0 fw-margin-0">
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Вес</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Рост</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Грудь</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Цвет глаз</li>
+                                </ul>
+
+                                <ul class="fw-pl-20 fw-margin-0">
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">55</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">170</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">2</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Синий</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fw-flex fw-flex-middle fw-flex-space-between fw-pl-20 fw-pr-20 fw-pt-15 fw-pb-20">
+                        <p class="fw-fz-14 fw-color-white fw-RobotoRegular">Girl name, <span>23</span></p>
+                        <a href="https://zolushka-project.ru/profile/she/839335?utm_source=Unisender&utm_medium=CPC&utm_campaign=email_follow" target="_blank" class="fw-fz-12 fw-flex fw-flex-middle fw-pl-10 fw-pr-10 fw-hover-red-white fw-flex-left fw-z-index-1 fw-height-34 fw-border-radius-130px red-border fw-color-red2">
+                            <span class="icon-message fw-fz-14 fw-mr-15"></span>
+                            Message
+                        </a>
+                    </div>
+                </div>
+
+                <div class="girls-slider-slide fw-margin-auto fw-border-radius-10 fw-black-bg">
+                    <div class="girls-slider-slide-img fw-height-300">
+                        <img src="images/male/4.png" class="girls-slider-slide-img-main fw-width-1-1 fw-height-1-1 fw-border-radius-10" alt="">
+
+                        <div class="profile-hover-info fw-pt-40 fw-border-radius-10 fw-absolute fw-height-1-1 fw-width-1-1 fw-left-0 fw-top-0">
+                            <img src="images/male/4.png" class="fw-white-border fw-height-76 fw-width-76px fw-margin-auto fw-border-radius-percent-50" alt="">
+                            <div class="fw-flex parameters fw-flex-top fw-pt-25 fw-flex-center fw-text-left">
+                                <ul class="fw-padding-0 fw-margin-0">
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Вес</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Рост</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Грудь</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Цвет глаз</li>
+                                </ul>
+
+                                <ul class="fw-pl-20 fw-margin-0">
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">55</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">170</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">2</li>
+                                    <li class="fw-fz-14 fw-color-white fw-pb-5">Синий</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fw-flex fw-flex-middle fw-flex-space-between fw-pl-20 fw-pr-20 fw-pt-15 fw-pb-20">
+                        <p class="fw-fz-14 fw-color-white fw-RobotoRegular">Girl name, <span>23</span></p>
+                        <a href="https://zolushka-project.ru/profile/she/132661" target="_blank" class="fw-fz-12 fw-flex fw-flex-middle fw-pl-10 fw-pr-10 fw-hover-red-white fw-flex-left fw-height-34 fw-border-radius-130px red-border fw-z-index-1 fw-color-red2">
+                            <span class="icon-message fw-fz-14 fw-mr-15"></span>
+                            Message
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {# end #}
+
+            <p class="girls-bottom-text fw-fz-16 fw-color-white fw-RobotoBold fw-mt-35 fw-mb-0 fw-pb-30">Хотите познакомиться с девушками по ближе?</p>
+
+            <div class="lending-buttons fw-flex fw-flex-center fw-flex-middle">
+                <a href="https://zolushka-project.ru/" target="_blank" class="fw-width-230 fw-red-bg-hover2 fw-height-44 fw-border-radius-130px fw-bg-color-red2 fw-color-white fw-fz-16 fw-flex fw-flex-center fw-flex-middle fw-RobotoRegular">Да, хочу!</a>
+                <a data-popup-target="#download-app-popup" class="js-open-popup fw-width-230 fw-red-bg-hover2 fw-height-44 fw-border-radius-130px fw-bg-color-red2 fw-color-white fw-fz-16 fw-flex fw-flex-center fw-flex-middle fw-ml-20 fw-RobotoRegular fw-pointer">Скачать приложение</a>
+            </div>
+        </div>
+    </div>
+    {# Girls section 2 #}
+    <div class="bench-of-spare-girls fw-bg-color-gray-light">
+        <div class="container fw-flex fw-flex-column fw-flex-center fw-flex-middle fw-pt-45 fw-pl-135 fw-pr-135 fw-pb-30">
+            <h2 class="fw-margin-0 fw-text-center fw-fz-30 fw-AvenirNextBold fw-font-normal fw-mb-30">Еще сотни мужчин ждут тебя</h2>
+
+            <div class="bench-of-spare-girls-items fw-grid fw-flex-center fw-flex-top">
+
+                <div class="bench-of-spare-girls-items-item fw-bg-color-white fw-border-radius-10 fw-items-shadow fw-box-shadow-hover fw-mb-30">
+                    <div class="bench-of-spare-girls-items-item-img fw-relative fw-height-300">
+                        <img src="images/male/5.jpg" class="fw-width-1-1 fw-height-1-1 fw-border-radius-10" alt="">
+
+                        <div class="profile-hover-info fw-pt-45 fw-bg-color-white fw-text-center fw-border-radius-10 fw-absolute fw-height-1-1 fw-width-1-1 fw-left-0 fw-top-0">
+                            <img src="images/male/5.jpg" class="profile-hover-info-img fw-height-68 fw-width-68 fw-margin-auto fw-border-radius-percent-50" alt="">
+                            <div class="profile-hover-info-content fw-color-text fw-flex fw-flex-top fw-pt-25 fw-flex-center fw-text-left">
+                                <ul class="fw-padding-0 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">Вес</li>
+                                    <li class="fw-fz-14 fw-pb-5">Рост</li>
+                                    <li class="fw-fz-14 fw-pb-5">Грудь</li>
+                                    <li class="fw-fz-14 fw-pb-5">Цвет глаз</li>
+                                </ul>
+
+                                <ul class="fw-pl-20 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">55</li>
+                                    <li class="fw-fz-14 fw-pb-5">170</li>
+                                    <li class="fw-fz-14 fw-pb-5">2</li>
+                                    <li class="fw-fz-14 fw-pb-5">Синий</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="name-and-message-wrap fw-flex fw-flex-middle fw-flex-space-between fw-pl-20 fw-pr-20 fw-pt-15 fw-pb-20">
+                        <p class="fw-fz-14 fw-RobotoRegular">Girl name, <span>23</span></p>
+                        <a href="https://zolushka-project.ru/profile/she/809658?utm_source=Unisender&utm_medium=CPC&utm_campaign=email_follow" target="_blank"
+                           class="fw-fz-12 fw-flex fw-flex-middle fw-pl-10 fw-pr-10 fw-hover-red-white fw-flex-left fw-height-34 fw-border-radius-130px red-border fw-color-red2">
+                            <span class="icon-message fw-fz-14 fw-mr-15"></span>
+                            <span class="message">Message</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bench-of-spare-girls-items-item fw-bg-color-white fw-border-radius-10 fw-items-shadow fw-box-shadow-hover fw-mb-30">
+                    <div class="bench-of-spare-girls-items-item-img fw-relative fw-height-300">
+                        <img src="images/male/6.jpg" class="fw-width-1-1 fw-height-1-1 fw-border-radius-10" alt="">
+
+                        <div class="profile-hover-info fw-pt-45 fw-bg-color-white fw-text-center fw-border-radius-10 fw-absolute fw-height-1-1 fw-width-1-1 fw-left-0 fw-top-0">
+                            <img src="images/male/6.jpg" class="profile-hover-info-img fw-height-68 fw-width-68 fw-margin-auto fw-border-radius-percent-50" alt="">
+                            <div class="profile-hover-info-content fw-color-text fw-flex fw-flex-top fw-pt-25 fw-flex-center fw-text-left">
+                                <ul class="fw-padding-0 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">Вес</li>
+                                    <li class="fw-fz-14 fw-pb-5">Рост</li>
+                                    <li class="fw-fz-14 fw-pb-5">Грудь</li>
+                                    <li class="fw-fz-14 fw-pb-5">Цвет глаз</li>
+                                </ul>
+
+                                <ul class="fw-pl-20 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">55</li>
+                                    <li class="fw-fz-14 fw-pb-5">170</li>
+                                    <li class="fw-fz-14 fw-pb-5">2</li>
+                                    <li class="fw-fz-14 fw-pb-5">Синий</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="name-and-message-wrap fw-flex fw-flex-middle fw-flex-space-between fw-pl-20 fw-pr-20 fw-pt-15 fw-pb-20">
+                        <p class="fw-fz-14 fw-RobotoRegular">Girl name, <span>23</span></p>
+                        <a href="https://zolushka-project.ru/profile/she/843822" target="_blank"
+                           class="fw-fz-12 fw-flex fw-flex-middle fw-pl-10 fw-pr-10 fw-hover-red-white fw-flex-left fw-height-34 fw-border-radius-130px red-border fw-color-red2">
+                            <span class="icon-message fw-fz-14 fw-mr-15"></span>
+                            <span class="message">Message</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bench-of-spare-girls-items-item fw-bg-color-white fw-border-radius-10 fw-items-shadow fw-box-shadow-hover fw-mb-30">
+                    <div class="bench-of-spare-girls-items-item-img fw-relative fw-height-300">
+                        <img src="images/male/7.jpg" class="fw-width-1-1 fw-height-1-1 fw-border-radius-10" alt="">
+
+                        <div class="profile-hover-info fw-pt-45 fw-bg-color-white fw-text-center fw-border-radius-10 fw-absolute fw-height-1-1 fw-width-1-1 fw-left-0 fw-top-0">
+                            <img src="images/male/7.jpg" class="profile-hover-info-img fw-height-68 fw-width-68 fw-margin-auto fw-border-radius-percent-50" alt="">
+                            <div class="profile-hover-info-content fw-color-text fw-flex fw-flex-top fw-pt-25 fw-flex-center fw-text-left">
+                                <ul class="fw-padding-0 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">Вес</li>
+                                    <li class="fw-fz-14 fw-pb-5">Рост</li>
+                                    <li class="fw-fz-14 fw-pb-5">Грудь</li>
+                                    <li class="fw-fz-14 fw-pb-5">Цвет глаз</li>
+                                </ul>
+
+                                <ul class="fw-pl-20 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">55</li>
+                                    <li class="fw-fz-14 fw-pb-5">170</li>
+                                    <li class="fw-fz-14 fw-pb-5">2</li>
+                                    <li class="fw-fz-14 fw-pb-5">Синий</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="name-and-message-wrap fw-flex fw-flex-middle fw-flex-space-between fw-pl-20 fw-pr-20 fw-pt-15 fw-pb-20">
+                        <p class="fw-fz-14 fw-RobotoRegular">Girl name, <span>23</span></p>
+                        <a href="https://zolushka-project.ru/profile/she/730607" target="_blank"
+                           class="fw-fz-12 fw-flex fw-flex-middle fw-pl-10 fw-pr-10 fw-hover-red-white fw-flex-left fw-height-34 fw-border-radius-130px red-border fw-color-red2">
+                            <span class="icon-message fw-fz-14 fw-mr-15"></span>
+                            <span class="message">Message</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bench-of-spare-girls-items-item fw-bg-color-white fw-border-radius-10 fw-items-shadow fw-box-shadow-hover fw-mb-30">
+                    <div class="bench-of-spare-girls-items-item-img fw-relative fw-height-300">
+                        <img src="images/male/8.jpg" class="fw-width-1-1 fw-height-1-1 fw-border-radius-10" alt="">
+
+                        <div class="profile-hover-info fw-pt-45 fw-bg-color-white fw-text-center fw-border-radius-10 fw-absolute fw-height-1-1 fw-width-1-1 fw-left-0 fw-top-0">
+                            <img src="images/male/8.jpg" class="profile-hover-info-img fw-height-68 fw-width-68 fw-margin-auto fw-border-radius-percent-50" alt="">
+                            <div class="profile-hover-info-content fw-color-text fw-flex fw-flex-top fw-pt-25 fw-flex-center fw-text-left">
+                                <ul class="fw-padding-0 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">Вес</li>
+                                    <li class="fw-fz-14 fw-pb-5">Рост</li>
+                                    <li class="fw-fz-14 fw-pb-5">Грудь</li>
+                                    <li class="fw-fz-14 fw-pb-5">Цвет глаз</li>
+                                </ul>
+
+                                <ul class="fw-pl-20 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">55</li>
+                                    <li class="fw-fz-14 fw-pb-5">170</li>
+                                    <li class="fw-fz-14 fw-pb-5">2</li>
+                                    <li class="fw-fz-14 fw-pb-5">Синий</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="name-and-message-wrap fw-flex fw-flex-middle fw-flex-space-between fw-pl-20 fw-pr-20 fw-pt-15 fw-pb-20">
+                        <p class="fw-fz-14 fw-RobotoRegular">Girl name, <span>23</span></p>
+                        <a href="https://zolushka-project.ru/profile/she/435323" target="_blank"
+                           class="fw-fz-12 fw-flex fw-flex-middle fw-pl-10 fw-pr-10 fw-hover-red-white fw-flex-left fw-height-34 fw-border-radius-130px red-border fw-color-red2">
+                            <span class="icon-message fw-fz-14 fw-mr-15"></span>
+                            <span class="message">Message</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bench-of-spare-girls-items-item fw-bg-color-white fw-border-radius-10 fw-items-shadow fw-box-shadow-hover fw-mb-30">
+                    <div class="bench-of-spare-girls-items-item-img fw-height-300 fw-relative">
+                        <img src="images/male/9.jpg" class="fw-width-1-1 fw-height-1-1 fw-border-radius-10" alt="">
+
+                        <div class="profile-hover-info fw-pt-45 fw-bg-color-white fw-text-center fw-border-radius-10 fw-absolute fw-height-1-1 fw-width-1-1 fw-left-0 fw-top-0">
+                            <img src="images/male/9.jpg" class="profile-hover-info-img fw-height-68 fw-width-68 fw-margin-auto fw-border-radius-percent-50" alt="">
+                            <div class="profile-hover-info-content fw-color-text fw-flex fw-flex-top fw-pt-25 fw-flex-center fw-text-left">
+                                <ul class="fw-padding-0 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">Вес</li>
+                                    <li class="fw-fz-14 fw-pb-5">Рост</li>
+                                    <li class="fw-fz-14 fw-pb-5">Грудь</li>
+                                    <li class="fw-fz-14 fw-pb-5">Цвет глаз</li>
+                                </ul>
+
+                                <ul class="fw-pl-20 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">55</li>
+                                    <li class="fw-fz-14 fw-pb-5">170</li>
+                                    <li class="fw-fz-14 fw-pb-5">2</li>
+                                    <li class="fw-fz-14 fw-pb-5">Синий</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="name-and-message-wrap fw-flex fw-flex-middle fw-flex-space-between fw-pl-20 fw-pr-20 fw-pt-15 fw-pb-20">
+                        <p class="fw-fz-14 fw-RobotoRegular">Girl name, <span>23</span></p>
+                        <a href="https://zolushka-project.ru/profile/she/844006" target="_blank"
+                           class="fw-fz-12 fw-flex fw-flex-middle fw-pl-10 fw-pr-10 fw-hover-red-white fw-flex-left fw-height-34 fw-border-radius-130px red-border fw-color-red2">
+                            <span class="icon-message fw-fz-14 fw-mr-15"></span>
+                            <span class="message">Message</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bench-of-spare-girls-items-item fw-bg-color-white fw-border-radius-10 fw-items-shadow fw-box-shadow-hover fw-mb-30">
+                    <div class="bench-of-spare-girls-items-item-img fw-relative fw-height-300">
+                        <img src="images/male/10.jpg" class="fw-width-1-1 fw-height-1-1 fw-border-radius-10" alt="">
+
+                        <div class="profile-hover-info fw-pt-45 fw-bg-color-white fw-text-center fw-border-radius-10 fw-absolute fw-height-1-1 fw-width-1-1 fw-left-0 fw-top-0">
+                            <img src="images/male/10.jpg" class="profile-hover-info-img fw-height-68 fw-width-68 fw-margin-auto fw-border-radius-percent-50" alt="">
+                            <div class="profile-hover-info-content fw-color-text fw-flex fw-flex-top fw-pt-25 fw-flex-center fw-text-left">
+                                <ul class="fw-padding-0 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">Вес</li>
+                                    <li class="fw-fz-14 fw-pb-5">Рост</li>
+                                    <li class="fw-fz-14 fw-pb-5">Грудь</li>
+                                    <li class="fw-fz-14 fw-pb-5">Цвет глаз</li>
+                                </ul>
+
+                                <ul class="fw-pl-20 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">55</li>
+                                    <li class="fw-fz-14 fw-pb-5">170</li>
+                                    <li class="fw-fz-14 fw-pb-5">2</li>
+                                    <li class="fw-fz-14 fw-pb-5">Синий</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="name-and-message-wrap fw-flex fw-flex-middle fw-flex-space-between fw-pl-20 fw-pr-20 fw-pt-15 fw-pb-20">
+                        <p class="fw-fz-14 fw-RobotoRegular">Girl name, <span>23</span></p>
+                        <a href="https://zolushka-project.ru/profile/she/742757" target="_blank"
+                           class="fw-fz-12 fw-flex fw-flex-middle fw-pl-10 fw-pr-10 fw-hover-red-white fw-flex-left fw-height-34 fw-border-radius-130px red-border fw-color-red2">
+                            <span class="icon-message fw-fz-14 fw-mr-15"></span>
+                            <span class="message">Message</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bench-of-spare-girls-items-item fw-bg-color-white fw-border-radius-10 fw-items-shadow fw-box-shadow-hover fw-mb-30">
+                    <div class="bench-of-spare-girls-items-item-img fw-relative fw-height-300">
+                        <img src="images/male/11.jpg" class="fw-width-1-1 fw-height-1-1 fw-border-radius-10" alt="">
+
+                        <div class="profile-hover-info fw-pt-45 fw-bg-color-white fw-text-center fw-border-radius-10 fw-absolute fw-height-1-1 fw-width-1-1 fw-left-0 fw-top-0">
+                            <img src="images/male/11.jpg" class="profile-hover-info-img fw-height-68 fw-width-68 fw-margin-auto fw-border-radius-percent-50" alt="">
+                            <div class="profile-hover-info-content fw-color-text fw-flex fw-flex-top fw-pt-25 fw-flex-center fw-text-left">
+                                <ul class="fw-padding-0 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">Вес</li>
+                                    <li class="fw-fz-14 fw-pb-5">Рост</li>
+                                    <li class="fw-fz-14 fw-pb-5">Грудь</li>
+                                    <li class="fw-fz-14 fw-pb-5">Цвет глаз</li>
+                                </ul>
+
+                                <ul class="fw-pl-20 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">55</li>
+                                    <li class="fw-fz-14 fw-pb-5">170</li>
+                                    <li class="fw-fz-14 fw-pb-5">2</li>
+                                    <li class="fw-fz-14 fw-pb-5">Синий</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="name-and-message-wrap fw-flex fw-flex-middle fw-flex-space-between fw-pl-20 fw-pr-20 fw-pt-15 fw-pb-20">
+                        <p class="fw-fz-14 fw-RobotoRegular">Girl name, <span>23</span></p>
+                        <a href="https://zolushka-project.ru/profile/she/844474" target="_blank"
+                           class="fw-fz-12 fw-flex fw-flex-middle fw-pl-10 fw-pr-10 fw-hover-red-white fw-flex-left fw-height-34 fw-border-radius-130px red-border fw-color-red2">
+                            <span class="icon-message fw-fz-14 fw-mr-15"></span>
+                            <span class="message">Message</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bench-of-spare-girls-items-item fw-bg-color-white fw-border-radius-10 fw-items-shadow fw-box-shadow-hover fw-mb-30">
+                    <div class="bench-of-spare-girls-items-item-img fw-relative fw-height-300">
+                        <img src="images/male/12.jpg" class="fw-width-1-1 fw-height-1-1 fw-border-radius-10" alt="">
+
+                        <div class="profile-hover-info fw-pt-45 fw-bg-color-white fw-text-center fw-border-radius-10 fw-absolute fw-height-1-1 fw-width-1-1 fw-left-0 fw-top-0">
+                            <img src="images/male/12.jpg" class="profile-hover-info-img fw-height-68 fw-width-68 fw-margin-auto fw-border-radius-percent-50" alt="">
+                            <div class="profile-hover-info-content fw-color-text fw-flex fw-flex-top fw-pt-25 fw-flex-center fw-text-left">
+                                <ul class="fw-padding-0 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">Вес</li>
+                                    <li class="fw-fz-14 fw-pb-5">Рост</li>
+                                    <li class="fw-fz-14 fw-pb-5">Грудь</li>
+                                    <li class="fw-fz-14 fw-pb-5">Цвет глаз</li>
+                                </ul>
+
+                                <ul class="fw-pl-20 fw-margin-0">
+                                    <li class="fw-fz-14 fw-pb-5">55</li>
+                                    <li class="fw-fz-14 fw-pb-5">170</li>
+                                    <li class="fw-fz-14 fw-pb-5">2</li>
+                                    <li class="fw-fz-14 fw-pb-5">Синий</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="name-and-message-wrap fw-flex fw-flex-middle fw-flex-space-between fw-pl-20 fw-pr-20 fw-pt-15 fw-pb-20">
+                        <p class="fw-fz-14 fw-RobotoRegular">Girl name, <span>23</span></p>
+                        <a href="https://zolushka-project.ru/profile/she/843873" target="_blank"
+                           class="fw-fz-12 fw-flex fw-flex-middle fw-pl-10 fw-pr-10 fw-hover-red-white fw-flex-left fw-height-34 fw-border-radius-130px red-border fw-color-red2">
+                            <span class="icon-message fw-fz-14 fw-mr-15"></span>
+                            <span class="message">Message</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://zolushka-project.ru/" target="_blank" class="view-all fw-margin-auto fw-width-290 fw-red-bg-hover fw-height-44 fw-mt-20 fw-border-radius-130px fw-bg-color-red2 fw-color-white fw-fz-16 fw-flex fw-flex-center fw-flex-middle fw-RobotoRegular">Смотреть всех</a>
+        </div>
+    </div>
+    {# About #}
+    <div class="about-us-section">
+        <div class="container fw-max-width-1100 fw-pl-15 fw-pr-15 fw-margin-auto fw-flex fw-flex-column fw-flex-center fw-flex-middle">
+            <ul class="tabs owl-carousel owl-theme fw-margin-0 js-tabs-slider fw-flex fw-flex-center fw-color-red2 fw-fz-22 fw-RobotoMedium fw-flex-middle fw-pt-40 fw-pb-40">
+                <li class="fw-flex fw-flex-center fw-flex-middle"><a data-tab="#tab1"  class="fw-color-red2 active-link fw-user-select-no fw-pointer fw-text-uppercase fw-pb-3 fw-ml-25 fw-mr-25">О нас</a></li>
+                <li class="fw-flex fw-flex-center fw-flex-middle"><a data-tab="#tab2" class="fw-color-red2 fw-user-select-no fw-pointer fw-white-space-no fw-text-uppercase fw-pb-3 fw-ml-25 fw-mr-25">Преимущества проекта</a></li>
+                <li class="fw-flex fw-flex-center fw-flex-middle"><a data-tab="#tab3" class="fw-color-red2 fw-user-select-no fw-pointer fw-text-uppercase fw-pb-3 fw-ml-25 fw-mr-25">В твоем городе</a></li>
+            </ul>
+
+            <div class="tab-container fw-width-1-1 fw-pb-35">
+                {% for i in 0..7 %}
+                <div id="tab{{ i }}" class="tab-content fw-flex fw-flex-top fw-width-1-1 fw-flex-center">
+                    <div class="tab-content--left fw-width-1-2">
+                        <p class="fw-fz-16 fw-RobotoRegular fw-line-height-22 fw-margin-0">Когда ты молодая, амбициозная и хочешь пообщаться с опрятным мужчиной, то проект "Золушка" - наш сайт знакомств специально для тебя: хватайся за такую возможность и не упускай свой шанс, чтобы зажить красивой жизнью.</p>
+                        <p class="fw-fz-16 fw-RobotoRegular fw-line-height-22 fw-pt-20 fw-margin-0"> Тебе обидно, что самые лучшие годы проходят в одиночестве? А ведь тебе наверняка так хочется иметь спонсора. Ведь он реализует все твои желания:</p>
+
+                        <ul class="on-mobile-hidden fw-pl-0 fw-line-height-22">
+                            <li>1. 	Путешествия по всему миру;</li>
+                            <li>2. 	Потрясающие подарки, брендовые вещи и золотые украшения;</li>
+                            <li>3.	Многочисленные селфи на фоне роскоши;</li>
+                            <li>4. 	Приятный досуг с опрятным джентльменом;</li>
+                            <li>5. 	Никакой скуки в ночное время суток. богатому</li>
+                        </ul>
+
+                        <p class="fw-fz-16 on-mobile-hidden fw-RobotoRegular fw-margin-0">Самое приятное, что тебе для первого шага не нужно даже поднимать свою прелестную попку со стула. Просто создай аккаунт на портале, залей туда лучшие фотографии и начинай поиски своего мужчины.</p>
+                    </div>
+
+                    <div class="tab-content--right fw-width-1-2 fw-flex fw-flex-column fw-flex-center fw-flex-middle fw-text-center">
+                        <p class="fw-RobotoBold fw-fz-22 fw-mb-30 fw-mt-0">Скачай приложение и найди пару <br> прямо сейчас</p>
+                        
+                        <div class="fw-flex fw-flex-bottom fw-flex-center fw-mb-30">
+                            <div class="fw-width-1-2 fw-pr-45 fw-border-style-solid-right fw-border-width-1 fw-border-color-gray-light">
+                                <a href="#">
+                                    <img src="images/as.png" class="fw-width-60" alt="">
+                                    <p class="fw-margin-0 fw-fz-16 fw-color-gray fw-RobotoRegular">App Store</p>
+                                </a>
+                            </div>
+
+                            <div class="fw-width-1-2 fw-pl-45">
+                                <a href="#">
+                                    <img src="images/gp.png" class="fw-width-70" alt="">
+                                    <p class="fw-white-space-no fw-margin-0 fw-fz-16 fw-color-gray fw-RobotoRegular"> Google Play </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <form class="fw-flex fw-flex-center fw-flex-middle fw-flex-column fw-mb-20">
+                            <div class="fw-width-1-1 fw-bg-color-gray2 fw-border-radius-20 fw-overflow-hidden fw-border-style-solid fw-border-width-2 fw-border-color-red2 fw-flex fw-flex-center fw-max-width-300 fw-flex-middle fw-relative fw-mb-15">
+                                <select name="" id="" class="fw-pointer fw-RobotoRegular fw-outline-none fw-fz-16 fw-border-none fw-bg-color-gray2 fw-absolute fw-left-2 fw-transform-middle fw-height-percent-84">
+                                    <option value="1">+7</option>
+                                    <option value="2">+8</option>
+                                    <option value="3">+38</option>
+                                </select>
+
+                                <input type="text" class="fw-height-40 fw-RobotoRegular fw-bg-color-gray2 fw-border-none fw-fz-16 fw-pl-50 fw-width-1-1">
+                            </div>
+
+                            <button class="fw-red-bg-hover2 fw-RobotoMedium fw-fz-16 fw-color-white fw-bg-color-red2 fw-border-radius-20 fw-max-width-300 fw-width-1-1 fw-height-40 fw-flex fw-flex-center fw-flex-middle fw-border-none fw-pointer">Скачать</button>
+                        </form>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    {# Cities #}
+    <div class="cities">
+        <div class="container fw-max-width-1100 fw-pl-15 fw-pr-15 fw-margin-auto fw-flex fw-flex-column fw-flex-center fw-flex-middle">
+            <h2 class="fw-pb-25 fw-RobotoBold fw-fz-22 fw-margin-0">Девушки в городах поблизости</h2>
+            
+            <div class="js-cities-slider cities-slider fw-width-1-1 cities-slider owl-carousel owl-theme fw-pb-65">
+            {% for i in 1..4 %}
+                <div class="fw-flex fw-flex-column">
+                    <div class="fw-width-1-1 fw-height-210 fw-border-radius-5 fw-overflow-hidden fw-obj">
+                        <img src="images/cities/{{ i }}.png" class="fw-object-fit-cover fw-width-1-1 fw-height-1-1" alt="">
+                    </div>
+
+                    <p class="fw-fz-14 fw-pt-20 fw-margin-0 fw-color-red2 fw-pb-10 fw-RobotoRegular">Нижний Новгород {{ i }}</p>
+                    <p class="fw-fz-12 fw-text-overflow fw-mb-15 fw-margin-0 fw-line-height-19 fw-color-dark">Прохороходило масштабное событие! Межрегиональный турнир по каратэ "Большая Волга" с участием более 350 спортсменов всех возрастов из Нижегородской, Самар...дило масштабное событие! Межрегиональный турнир по каратэ "Большая Волга" с участием более 350 спортсменов всех возрастов из Нижегородской</p>
+                    <a href="#" class="fw-color-red2 fw-block fw-fz-12">Подробнее</a>
+                </div>
+            {% endfor %}
+
+                {#<div class="fw-flex fw-flex-column">#}
+                    {#<div class="fw-width-1-1 fw-height-210 fw-border-radius-5 fw-overflow-hidden">#}
+                        {#<img src="images/cities/2.png" class="fw-object-fit-cover fw-width-1-1 fw-height-1-1" alt="">#}
+                    {#</div>#}
+                    {#<p class="fw-fz-14 fw-pt-20 fw-margin-0 fw-color-red2 fw-pb-10 fw-RobotoRegular">Санкт-Петербург</p>#}
+                    {#<p class="fw-fz-12 fw-text-overflow fw-mb-15 fw-margin-0 fw-line-height-19 fw-color-dark">Проходило масштабное событие! Межрегиональный турнир по каратэ "Большая Волга" с участием более 350 спортсменов всех возрастов из Нижегородской, Самар...</p>#}
+                    {#<a href="#" class="fw-color-red2 fw-fz-12">Подробнее</a>#}
+                {#</div>#}
+
+                {#<div class="fw-flex fw-flex-column">#}
+                    {#<div class="fw-width-1-1 fw-height-210 fw-border-radius-5 fw-overflow-hidden">#}
+                        {#<img src="images/cities/3.png" class="fw-object-fit-cover fw-width-1-1 fw-height-1-1" alt="">#}
+                    {#</div>#}
+                    {#<p class="fw-fz-14 fw-pt-20 fw-margin-0 fw-color-red2 fw-pb-10 fw-RobotoRegular">Москва</p>#}
+                    {#<p class="fw-fz-12 fw-text-overflow fw-mb-15 fw-margin-0 fw-line-height-19 fw-color-dark">Проходило масштабное событие! Межрегиональный турнир по каратэ "Большая Волга" с участием более 350 спортсменов всех возрастов из Нижегородской, Самар...</p>#}
+                    {#<a href="#" class="fw-color-red2 fw-fz-12">Подробнее</a>#}
+                {#</div>#}
+
+                {#<div class="fw-flex fw-flex-column">#}
+                    {#<div class="fw-width-1-1 fw-height-210 fw-border-radius-5 fw-overflow-hidden">#}
+                        {#<img src="images/cities/4.png" class="fw-object-fit-cover fw-width-1-1 fw-height-1-1" alt="">#}
+                    {#</div>#}
+                    {#<p class="fw-fz-14 fw-pt-20 fw-margin-0 fw-color-red2 fw-pb-10 fw-RobotoRegular">Краснодар</p>#}
+                    {#<p class="fw-fz-12 fw-text-overflow fw-mb-15 fw-margin-0 fw-line-height-19 fw-color-dark">Проходило масштабное событие! Межрегиональный турнир по каратэ "Большая Волга" с участием более 350 спортсменов всех возрастов из Нижегородской, Самар...</p>#}
+                    {#<a href="#" class="fw-color-red2 fw-fz-12">Подробнее</a>#}
+                {#</div>#}
+            </div>
+
+            <hr class="fw-bg-color-border fw-width-1-1 fw-height-2 fw-border-none fw-mb-30 fw-mt-0">
+        </div>
+    </div>
+    <!-- footer block -->
+    {% include "layouts/footer.twig" %}
+    <!-- footer block end -->
+{% endblock %}

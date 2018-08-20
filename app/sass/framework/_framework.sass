@@ -1,0 +1,195 @@
+.fw-reset
+	margin: 0
+	font-weight: normal
+	padding: 0
+	list-style: none
+	background-color: transparent
+	border: none
+	font-family: inherit
+	color: inherit
+	text-decoration: inherit
+
+@import "../colors"
+@import "../variables"
+@import "functions"
+@import "viewports"
+@import "display"
+@import "backgrounds-and-colors"
+@import "width"
+@import "height"
+@import "grid"
+@import "margins-and-paddings"
+@import "flex"
+@import "fonts"
+@import "border"
+@import "visibilities"
+@import "text"
+
+.fw-opacity-5
+	opacity: 0.5
+
+.fw-opacity-7
+	opacity: 0.7
+
+.fw-opacity-8
+	opacity: 0.8
+
+.fw-opacity-1
+	opacity: 1
+
+.fw-dashed-link
+	border-bottom: 1px dashed #fff
+	text-decoration: none
+
+	&:hover
+		border-color: transparent
+
+.fw-absolute
+	position: absolute
+
+.fw-relative
+	position: relative
+
+@each $value in $top
+	.fw-top-#{$value}
+		top: $value+px
+
+.fw-top-100-percent
+	top: 100%
+
+.fw-top-50-percent
+	top: 50%
+
+@each $value in $bottom
+	.fw-bottom-#{$value}
+		bottom: $value+px
+
+.fw-bottom-100-percent
+	bottom: 100%
+
+@each $value in $left
+	.fw-left-#{$value}
+		left: $value+px
+
+.fw-left-100-percent
+	left: 100%
+
+@each $value in $right
+	.fw-right-#{$value}
+		right: $value
+
+.fw-right-100-percent
+	right: 100%
+
+.fw-box-shadow
+	border: solid 1px #ececec
+
+.fw-transition
+	transition: all 0.3s ease
+
+.fw-z-index-1
+	z-index: 1
+
+.fw-overflow-hidden
+	overflow: hidden
+
+.fw-width-76px
+	width: 76px!important
+
+.fw-white-border
+	border: 1px solid $colorWhite
+.fw-pointer
+	cursor: pointer
+
+.fw-gray-hover
+	transition: all .3s ease
+	&:hover
+		background-color: #ededed
+
+.fw-text-nowrap
+	white-space: nowrap
+
+.fw-border-radius-10
+	border-radius: 10px
+
+.fw-block
+	display: block
+
+.fw-transform-origin-left
+	transform-origin: 40% 100%
+
+.fw-hover-red-white
+	transition: all .3s ease
+	&:hover
+		background-color: $colorRed2
+		color: $colorWhite
+
+.fw-border-radius-130px
+	border-radius: 130px
+
+.fw-black-bg
+	background-color: rgba(0, 0, 0, 0.7)
+	box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2)
+
+.fw-items-shadow
+	box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2)
+
+.fw-ml-min-30px
+	margin-left: -30px
+
+.fw-fixed
+	position: fixed
+
+.fw-red-bg-hover
+	transition: all .3s ease
+	&:hover
+		background-color: #e6386d
+		box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5)
+
+.fw-red-bg-hover2
+	transition: all .3s ease
+	&:hover
+		background-color: $colorWhite
+		color: $colorRed2
+		box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5)
+
+.fw-box-shadow-hover
+	transition: all .3s ease
+	&:hover
+		box-shadow: 3px 7px 27px 0 rgba(0, 0, 0, 0.2)
+
+.fw-popup-overlay
+	background-color: rgba(0,0,0,.6)
+.fw-z-index-2
+	z-index: 2
+
+.fw-z-index-10
+	z-index: 10
+.fw-opacity-hover
+	transition: all .3s ease
+	&:hover
+		opacity: 0.7
+
+.fw-link
+	&:hover
+		text-decoration: none
+
+	&.fw-text-decoration-none
+		text-decoration: none
+
+		&:hover
+			text-decoration: underline
+
+.fw-outline-none
+	outline: none
+
+.fw-transform-middle
+	top: 50%
+	transform: translateY(-50%)
+
+.fw-transform-center
+	left: 50%
+	transform: translateX(-50%)
+
+.fw-white-space-no
+	white-space: nowrap

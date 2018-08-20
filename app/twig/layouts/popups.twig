@@ -1,0 +1,56 @@
+<div id="download-app-popup" class="js-popup fw-hidden popup-wrap fw-popup-overlay fw-fixed fw-z-index-10 fw-left-0 fw-top-0 fw-width-1-1 fw-height-1-1 fw-flex fw-flex-center fw-flex-middle">
+    <div class="popup fw-relative fw-width-630 fw-max-width-630 fw-pl-40 fw-pr-40 fw-pt-30 fw-pb-30 fw-border-radius-10 fw-bg-color-white">
+        {# mobile close popup #}
+        <div class="fw-absolute fw-left-20 fw-top-23">
+            <div class="js-close-popup fw-hidden close-popup mobile-close-popup fw-pointer fw-relative"></div>
+        </div>
+        {# end #}
+        <div class="popup-content fw-flex fw-flex-middle fw-flex-column fw-pl-30 fw-flex-center fw-pr-30">
+            <div class="js-hide-after-sending">
+                <h2 class="js-hide-after-sending fw-AvenirNextBold fw-fz-20 fw-mb-30 fw-font-normal fw-text-center fw-mb-30">Чтобы начать общаться с девушками укажите номер телефона и мы пришлем ссылку на приложение</h2>
+
+                <p class="js-hide-after-sending fw-RobotoMedium fw-fz-18 fw-mb-25 fw-text-center">Доступно в:</p>
+
+                <div class="markets fw-pl-50 fw-pr-50 fw-flex fw-flex-bottom fw-flex-center fw-mb-30">
+                    <div class="fw-width-1-2 fw-flex fw-flex-middle fw-flex-center fw-border-style-solid-right fw-border-width-2 fw-border-color-gray-light">
+                        <a href="#">
+                            <img src="images/as.png" class="fw-width-60" alt="">
+                            <p class="fw-margin-0 fw-fz-16 fw-color-gray fw-RobotoRegular">App Store</p>
+                        </a>
+                    </div>
+
+                    <div class="fw-width-1-2 fw-flex fw-flex-middle fw-flex-center">
+                        <a href="#">
+                            <img src="images/gp.png" class="fw-width-70" alt="">
+                            <p class="fw-white-space-no fw-margin-0 fw-fz-16 fw-color-gray fw-RobotoRegular"> Google Play </p>
+                        </a>
+                    </div>
+                </div>
+
+                <form id="popup-form" class="fw-flex fw-flex-center fw-flex-middle fw-flex-column fw-mb-20">
+                    <div class="fw-width-1-1 fw-bg-color-gray2 fw-border-radius-20 fw-overflow-hidden fw-border-style-solid fw-border-width-2 fw-border-color-red2 fw-flex fw-flex-center fw-max-width-300 fw-flex-middle fw-relative fw-mb-15">
+                        <select name="" id=""
+                                class="fw-pointer fw-RobotoRegular fw-outline-none fw-fz-16 fw-border-none fw-bg-color-gray2 fw-absolute fw-left-2 fw-transform-middle fw-height-percent-84">
+                            <option value="1">+7</option>
+                            <option value="2">+8</option>
+                            <option value="3">+38</option>
+                        </select>
+
+                        <input type="text" class="fw-height-40 fw-RobotoRegular fw-bg-color-gray2 fw-border-none fw-fz-16 fw-pl-50 fw-width-1-1">
+                    </div>
+
+                    <button class="fw-red-bg-hover2 fw-RobotoMedium fw-fz-16 fw-color-white fw-bg-color-red2 fw-border-radius-20 fw-max-width-300 fw-width-1-1 fw-height-40 fw-flex fw-flex-center fw-flex-middle fw-border-none fw-pointer">
+                        Скачать
+                    </button>
+                </form>
+            </div>
+
+            <div class="js-show-after-sending fw-hidden fw-pt-50 fw-flex fw-flex-column fw-flex-middle fw-flex-center">
+                <img src="images/checked.png" class="fw-width-60 fw-block fw-margin-auto" alt="">
+                <p class="fw-RobotoMedium fw-fz-20 fw-mt-40 fw-pb-35 fw-text-center">Ссылка для скачивания отправлена вам на номер</p>
+            </div>
+        </div>
+
+        <span class="js-close-popup desktop-close-popup fw-block fw-pt-50 fw-color-red fw-text-center fw-fz-14 fw-RobotoRegular fw-pointer">Закрыть</span>
+    </div>
+</div>

@@ -1,0 +1,136 @@
+{# jQuery #}
+<script src="js/jquery-3.3.1.min.js"></script>
+{# end #}
+
+{# owl slider js #}
+<script src="js/owl.carousel.min.js"></script>
+{# end #}
+
+<script>
+    $(document).ready(function ($) {
+        {# owl main slider #}
+
+        $('.js-girls-slider').owlCarousel({
+            loop: true,
+            margin: 30,
+            center: true,
+            nav: false,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                500: {
+                    items: 2
+                },
+                840: {
+                    items: 3
+                },
+                1100: {
+                    items: 4
+                },
+                1600: {
+                    items: 5
+                },
+
+                1920: {
+                    items: 6
+                }
+
+            }
+        });
+
+        $('.js-cities-slider').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: false,
+            items: 4,
+            dots: false,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                500: {
+                    items: 2
+                },
+                840: {
+                    items: 3
+                },
+                1100: {
+                    items: 4
+                }
+
+            }
+        });
+
+        $('.js-tabs-slider').owlCarousel({
+            loop: false,
+            nav: false,
+            items: 3,
+            dots: false,
+            autoWidth:true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                500: {
+                    items: 2
+                },
+                840: {
+                    items: 3
+                },
+                1100: {
+                    items: 3
+                }
+
+            }
+        });
+        // open/close popup
+
+        $('.js-open-popup').on('click', function () {
+            var popup = $(this).attr('data-popup-target');
+            $(popup).removeClass('fw-hidden');
+        });
+
+        $('.js-close-popup').on('click', function () {
+            $('.js-popup').addClass('fw-hidden');
+        });
+
+        // tabs
+        $('.tab-content').hide();
+        $('.tab-content:first').show();
+        $('.tabs li:first').addClass('active-link');
+        $('.tabs li').on('click', function (event) {
+            $('.tabs li').removeClass('active-link');
+            $(this).addClass('active-link');
+            $('.tab-content').hide();
+            var selectTab = $(this).find('a').attr("data-tab");
+            $(selectTab).fadeIn();
+        });
+
+        // scroll
+        $('.js-go-to').on('click', function(){
+            var scroll_el = $(this).attr('href');
+            if ($(scroll_el).length != 0){
+                $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500);
+            }
+            return false;
+        });
+
+    // after sending form popup
+        $("#popup-form").submit(function() {
+            var th = $(this);
+            $.ajax({
+                data: th.serialize()
+            }).done(function() {
+                $('.js-hide-after-sending').hide();
+                $('.js-show-after-sending').removeClass('fw-hidden');
+            });
+            return false;
+        });
+
+    });
+
+</script>
